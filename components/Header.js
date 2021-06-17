@@ -8,9 +8,9 @@ const MenuBar = () => {
           <Link route="/">
               <a className="item">CrowdCoin</a>
           </Link>
-          <Menu.Item style={{flexGrow: 2}}>
+          {/*<Menu.Item style={{flexGrow: 2}}>
               <Input icon="search" placeholder="Search Campaigns"/>
-          </Menu.Item>
+          </Menu.Item>*/}
           <Menu.Menu position="right">
               <Link route="/">
                   <a className="item">
